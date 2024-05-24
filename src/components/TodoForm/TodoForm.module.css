@@ -1,0 +1,54 @@
+
+.todoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.todoContainer h1 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.todoFormContainer {
+    width: 100%;
+}
+
+.todoFormContainer form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.todoFormContainer input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    flex: 2;
+}
+
+.todoFormContainer button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1;
+}
+
+.todoFormContainer button:hover {
+    background-color: #0056b3;
+}
